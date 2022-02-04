@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+ul > a {
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+    margin: 10px 18px;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.headerNav > img{
+    height: 35px;
+    opacity: .7;
+}
+.headerNav>img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#signIn{
+    background-color:rgb(74, 118, 250);
+    color: white;
+    font-weight: bold;
+    padding: 7px 12px;
+    border-radius: 3px;
+    border: none;
+
+}
+#signIn:hover {
+    box-shadow: 2px 0 4px 0px gainsboro;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 14vh 0;
+
+}
+#logo {
+    width: 270px;
+}
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 43px;
+    width: 580px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border-color: gainsboro;
+    border-width: .8px;
+    border-style: solid;
+}
+.inputContainer > input {
+    width: 450px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.inputContainer > img {
+    height: 20px;
+    margin: 12px 15px;
+    
+}
+.inputContainer:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+.inputContainer >img:hover{
+    cursor: pointer;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    margin: 11px 0;
+    
+    
+}
+
+.buttonContainer > button {
+    height: 36px;
+    width: 133px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: rgba(0,0,0,.8);
+    background-color: #f2f2f2; 
+}
+.buttonContainer > button:hover{
+    box-shadow: 0 0 3px 0 grey;
+    border-color: rgb(200,200,200);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #f2f2f2;
+    width: 100vw;
+    
+    
+}
+
+
+
+.footer-nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.footer-nav-right{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
